@@ -1,0 +1,220 @@
+
+@media(max-width:768px){
+    .header{
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #131921;
+        position: sticky;
+        top: 0;
+        z-index:100;
+        width: 100%;
+    }
+
+    
+    .header__adress{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: none;
+        
+    }
+    .header_logo{
+        width: 50px;
+        object-fit: contain;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 5px;
+        margin:px
+    }
+    .header_search_icon{
+        height:10px ;
+        background-color: #cd9042;
+        padding: 10px;
+    
+    }
+    .header_search{
+        display: flex;
+        flex:1;
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px;
+        width: 100%;
+    
+    }
+    .header_search_input{
+        height: 10px;
+        width: 100%;
+        padding: 10px;
+        border: none;
+    }
+    .header_nav{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+    .header_option{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin:5px;
+    
+    }
+
+    
+
+    .header_option_line_one{
+        font-size: 7px;
+    }
+    
+    .header_option_line_two{
+        font-size: 7px;
+        font-weight: 300;
+    }
+    
+    .header_option_basket{
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .header_basket_count{
+        margin-left: 5px;
+        font-size: 10px;
+    }
+    .header_cart{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .cart{
+        margin-right: 10px;
+    }
+    
+    .cart_align{
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 300;
+       
+    }
+    
+    
+    
+
+
+}
+
+
+@media(min-width:768px){
+    .header{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        background-color: #131921;
+        position: sticky;
+        top: 0;
+        z-index:100;
+        width: 100%;
+        
+        
+    }
+    
+    
+    
+    .header__adress{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .header_logo{
+        width: 150px;
+        object-fit: contain;
+        margin: 0px 20px;
+        margin-top: 18px;
+        padding: 5px;
+    }
+    .header_search_icon{
+        height:22px ;
+        background-color: #cd9042;
+        padding: 10px;
+    
+    }
+    .header_search{
+        display: flex;
+        flex:1;
+        align-items: center;
+        border-radius: 24px;
+        padding: 10px;
+    }
+    .header_search_input{
+        height: 22px;
+        width: 100%;
+        padding: 10px;
+        border: none;
+    }
+    .header_nav{
+        display: flex;
+        
+    }
+    .header_option{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    
+    }
+    .header_option_line_one{
+        font-size: 14px;
+    }
+    
+    .header_option_line_two{
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .header_option_basket{
+        display: flex;
+        color: white;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .header_basket_count{
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .header_cart{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .cart{
+        margin-right: 20px;
+    }
+    
+    .cart_align{
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        font-weight: 600;
+       
+    }
+    
+    .cart_icon{
+        height: 20px;
+        width: 20px;
+    }
+    
+
+
+}
+
+
+
+
