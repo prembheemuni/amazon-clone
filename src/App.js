@@ -7,10 +7,9 @@ import Login from "./Login";
 import { useEffect } from "react";
 import { auth } from "./FireBase";
 import { useStateValue } from "./StateProvider";
-
+import Order from "./Orders";
 
 function App() {
-
   const [state, dispatch] = useStateValue();
   useEffect(() => {
     auth.onAuthStateChanged((authUser) => {
@@ -47,6 +46,15 @@ function App() {
               <>
                 <Header />
                 <Checkout />
+              </>
+            }
+          />
+          <Route
+            path="/orders"
+            element={
+              <>
+                <Header />
+                <Order />
               </>
             }
           />
