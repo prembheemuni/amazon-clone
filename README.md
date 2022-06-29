@@ -6,7 +6,7 @@
 > it is a fullt functional amazon clone web app which is also responsive for mobile devices. you will experience the same as the original amazon web application
 
 <h2>Here is the link to the Website</h2>
-<p>prembheemuni.firebaseapp.com</p> 
+(https://prembheemuni.firebaseapp.com/) 
 
 ## Install
 
