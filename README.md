@@ -1,4 +1,5 @@
 <h1 align="center">Welcome to Amazon-clone 👋</h1>
+<img src="https://i.im.ge/2022/06/30/uSKUBD.png"/>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
