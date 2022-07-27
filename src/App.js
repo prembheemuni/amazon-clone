@@ -8,7 +8,6 @@ import { useEffect } from "react";
 import { auth } from "./FireBase";
 import { useStateValue } from "./StateProvider";
 import Order from "./Orders";
-
 function App() {
   const [state, dispatch] = useStateValue();
   useEffect(() => {
